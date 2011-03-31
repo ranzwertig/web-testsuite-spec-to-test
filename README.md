@@ -8,7 +8,7 @@ web specs.
 
 - w3c
 
-More specs woll be supported soon. Feel free to implement own SpecParsers.
+More specs will be supported soon. Feel free to implement own SpecParsers.
 
 ## Requirements:
 
@@ -21,9 +21,9 @@ More specs woll be supported soon. Feel free to implement own SpecParsers.
 		
 e.g.
 
-		node testinator.js w3c http://www.w3.org/TR/2011/WD-html5-20110113/video.html w3c-media.js
+		$node testinator.js w3c http://www.w3.org/TR/2011/WD-html5-20110113/video.html w3c-media.js
 		
 ## Credits
 
-- Christian Ranz ([christianranz.com](http://christianranz.com))
-- ([browserlove.org](http://blog.browserlove.org))
+- Christian Ranz [christianranz.com](http://christianranz.com) – [@ranzwertig](http://twitter.com/ranzwertig)
+- [browserlove.org](http://blog.browserlove.org) – [@browserlove](http://twitter.com/browserlove)
