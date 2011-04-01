@@ -6,8 +6,8 @@ web specs.
 
 ## Supported Specs
 
-- w3c
-- WAC 2.0
+- W3C (parser: w3c)
+- WAC 2.0 (parser: wac20)
 
 More specs will be supported soon. Feel free to implement own SpecParsers.
 
@@ -18,11 +18,12 @@ More specs will be supported soon. Feel free to implement own SpecParsers.
 
 ## How To Use
 
-		$node testinator.js [parser] [spec URL] [output file]
+		$ node testinator.js [parser] [spec URL] [output file]
 		
 e.g.
 
-		$node testinator.js w3c http://www.w3.org/TR/2011/WD-html5-20110113/video.html w3c-media.js
+		$ node testinator.js w3c http://www.w3.org/TR/2011/WD-html5-20110113/video.html w3c-media.js
+		$ node testinator.js wac20 http://specs.wacapps.net/2.0/feb2011/deviceapis/deviceapis.html wac-deviceapis.js
 		
 ## Credits
 
