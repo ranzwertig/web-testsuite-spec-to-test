@@ -7,6 +7,7 @@ web specs.
 ## Supported Specs
 
 - w3c
+- WAC 2.0
 
 More specs will be supported soon. Feel free to implement own SpecParsers.
 
