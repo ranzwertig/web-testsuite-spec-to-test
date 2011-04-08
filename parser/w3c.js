@@ -28,7 +28,7 @@ SpecParser.prototype.parseSpec = function(data, specUrl){
             var testCaseObject = {
                 id:testCaseObjectId, 
                 name:$(this).attr('title'),
-                definedInSpecs:[specUrl+'#'+$(this).attr('id')],
+                definedInSpecs:[specUrl+'#'+$(this).attr('id')]
             };
             commit(testCaseObject);
             testCaseObjectId += 100;

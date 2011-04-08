@@ -30,7 +30,7 @@ SpecParser.prototype.parseSpec = function(data, specUrl){
 			var testCaseObject = {
                 id:testCaseObjectId, 
                 name:mid,
-                definedInSpecs:[specUrl+hash],
+                definedInSpecs:[specUrl+hash]
             };
 			commit(testCaseObject, false);
 			testCaseObjectId += 100;
@@ -38,10 +38,10 @@ SpecParser.prototype.parseSpec = function(data, specUrl){
 			for (var i = 0; i < methods.length; i += 1){
 				var id = $(methods[i]).attr('id');
 				hash = '#'+id;
-				var testCaseObject = {
+				testCaseObject = {
 					id:testCaseObjectId, 
 					name:mid+'-method-'+id,
-					definedInSpecs:[specUrl+hash],
+					definedInSpecs:[specUrl+hash]
 				};
 				commit(testCaseObject, true);
 				testCaseObjectId += 100;

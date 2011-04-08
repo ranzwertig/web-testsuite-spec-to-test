@@ -19,12 +19,12 @@ console.log(util.inspect(options));
 var generateTestFile = function(tests){
     var objectsToString = function(testCaseObject){
         var testCaseString = '\t{\n';
-        testCaseString += '\t\tid:'+testCaseObject.id+',\n'
-        testCaseString += '\t\tname:"'+testCaseObject.name +'",\n'
-        testCaseString += '\t\tdefinedInSpecs:["'+testCaseObject.definedInSpecs+'"],\n'
-        testCaseString += '\t\ttest:function(t){\n'
-        testCaseString += '\t\t\t//\tadd the test here\n'
-        testCaseString += '\t\t}\n'
+        testCaseString += '\t\tid:'+testCaseObject.id+',\n';
+        testCaseString += '\t\tname:"'+testCaseObject.name +'",\n';
+        testCaseString += '\t\tdefinedInSpecs:["'+testCaseObject.definedInSpecs+'"],\n';
+        testCaseString += '\t\ttest:function(t){\n';
+        testCaseString += '\t\t\t//\tadd the test here\n';
+        testCaseString += '\t\t}\n';
         testCaseString += '\t},\n';
         return testCaseString;
     };
@@ -41,7 +41,7 @@ var generateTestFile = function(tests){
 	});
 };
 
-var selectParser = agrs[2];;
+var selectParser = agrs[2];
 try {
 	var parserModule = require('./parser/'+selectParser);
 } catch (err) {
